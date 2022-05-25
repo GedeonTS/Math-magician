@@ -1,8 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 import Calculator from "./components/Calculator";
 
-const App = () => {
-  return <Calculator />;
-};
+class App extends Component {
+  render() {
+    return <Calculator />;
+  }
+}
 
 export default App;
