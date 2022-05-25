@@ -38,41 +38,41 @@ class Calculator extends Component {
           </div>
           <div className="row">
             <button type="button" className="clear-small-button">
-              number
+              4
             </button>
             <button type="button" className="clear-small-button">
-              number
+              5
             </button>
             <button type="button" className="clear-small-button">
-              number
+              6
             </button>
             <button type="button" className="clear-small-button operator-button">
-              oparator-orange
+              -
             </button>
           </div>
           <div className="row">
             <button type="button" className="clear-small-button">
-              number
+              1
             </button>
             <button type="button" className="clear-small-button">
-              number
+              2
             </button>
             <button type="button" className="clear-small-button">
-              number
+              3
             </button>
             <button type="button" className="clear-small-button operator-button">
-              oparator-orange
+              -
             </button>
           </div>
           <div className="row">
             <button type="button" className="clear-large-button">
-              number
+              0
             </button>
             <button type="button" className="clear-small-button">
-              number
+              .
             </button>
             <button type="button" className="clear-small-button operator-button">
-              oparator-orange
+              =
             </button>
           </div>
         </div>
