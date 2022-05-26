@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import calculate from "../logic/calculate";
-import operate from "../logic/operate";
 
 class Calculator extends Component {
   constructor(props) {
     super(props);
     this.state = { total: null, next: null, operation: null };
   }
-
 
   render() {
     const updateObject = (e) => {
@@ -27,7 +25,9 @@ class Calculator extends Component {
     return (
       <div className="container">
         <div className="input-field">
-          <p> {result || 0}</p>
+          <p>
+            {result || 0}
+          </p>
         </div>
         <div className="wrapper">
           <div className="row">
