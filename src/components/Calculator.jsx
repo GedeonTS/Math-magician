@@ -5,7 +5,6 @@ class Calculator extends Component {
   constructor(props) {
     super(props);
     this.state = { total: null, next: null, operation: null };
-    console.log("initialize")
   }
 
   componentDidMount = () => {
@@ -14,11 +13,9 @@ class Calculator extends Component {
       next: null,
       opreration: null,
     });
-    console.log("component didmount")
   };
 
   render() {
-    console.log("render")
     const updateObject = (e) => {
       const myObj = calculate(this.state, e.target.textContent);
       this.setState(myObj);
