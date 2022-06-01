@@ -20,7 +20,16 @@
       "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
       "react/react-in-jsx-scope": "off",
       "import/no-unresolved": "off",
-      "no-shadow": "off"
+      "no-shadow": "off",
+      "no-unused-vars":"off",
+      "no-multiple-empty-lines":"off",
+      "no-trailing-spaces":"off",
+      "react/jsx-indent":"off",
+      "space-infix-ops":"off",
+      "padded-blocks":"off",
+      "function-paren-newline":"off",
+      "react/no-unescaped-entities":"warn",
+      "indent":"off"
     },
     "ignorePatterns": [
       "dist/",
