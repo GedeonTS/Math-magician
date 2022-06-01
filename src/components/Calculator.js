@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import calculate from "../logic/calculate";
+import Header from './Header';
 
 
 const Calculator = () => {
@@ -8,17 +9,6 @@ const Calculator = () => {
     next: null,
     operation: null,
   });
-
-  
-  useEffect =() => {
-    setState({
-      total: null,
-      next: null,
-      opreration: null,
-    });
-     
-  };
-
 
 
   const updateObject = (e) => {
@@ -36,6 +26,10 @@ const Calculator = () => {
   }
 
   return (
+    <>
+      <Header />
+      <section className="calculator-section">
+        <h2>Let's do some Maths!</h2>
     <div className="container">
       <div className="input-field">
         <p>{result || 0}</p>
@@ -186,6 +180,8 @@ const Calculator = () => {
         </div>
       </div>
     </div>
+      </section>
+    </>
   );
 };
 export default Calculator;

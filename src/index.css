@@ -1,13 +1,86 @@
 body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1%;
+  border-bottom: solid 1px #5454;
+  box-shadow: 10px 10px 10px #5454;
+}
+
+h1 {
+  margin-left: 5%;
+  font-size: 40px;
+  color: grey;
+}
+
+nav {
+  width: 20%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding-top: 7%;
+  justify-content: space-between;
+  padding-right: 10%;
+}
+
+.menu-item {
+  color: red;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.menu-item:hover {
+  color: blue;
+  transition: all ease-in 0.6s;
+  font-weight: 700;
 }
 
 .container {
+  margin-right: 5%;
   width: 40vw;
   height: 55vh;
+}
+
+.home-section {
+  padding: 3%;
+}
+
+.calculator-section {
+  padding-top: 4%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.quote-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10%;
+  font-size: 20px;
+}
+
+.quote-section p {
+  width: 60%;
+}
+
+.author {
+  font-weight: 600;
+}
+
+.calculator-section h2 {
+  margin-left: 10%;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .input-field {
