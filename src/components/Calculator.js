@@ -27,12 +27,10 @@ const Calculator = () => {
 
   return (
     <>
-      <Header/>
+      <Header />
+      <section className="calculator-section">
+        <h2>Let's do some Maths!</h2>
     <div className="container">
-      <p>
-        That feels like an existential question, don't you
-        think?
-      </p>
       <div className="input-field">
         <p>{result || 0}</p>
       </div>
@@ -181,8 +179,9 @@ const Calculator = () => {
           </button>
         </div>
       </div>
-      </div>
-      </>
+    </div>
+      </section>
+    </>
   );
 };
 export default Calculator;
