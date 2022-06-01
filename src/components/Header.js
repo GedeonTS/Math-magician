@@ -6,9 +6,9 @@ function Header() {
         <header>
             <h1>Math Magician</h1>
             <nav>
-                <Link to="/">Home</Link>
-                <Link to="/Calculator">Calculator</Link>
-                <Link to="/Quote">Quote</Link>
+                <Link className="menu-item" to="/">Home</Link>
+                <Link className="menu-item" to="/Calculator">Calculator</Link>
+                <Link className="menu-item" to="/Quote">Quote</Link>
             </nav>
         </header>
     );
