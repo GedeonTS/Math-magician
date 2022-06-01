@@ -1,16 +1,20 @@
-import React from 'react'
+import React from 'react';
 import Header from './Header';
 
 function Quote() {
   return (
     <>
-      <Header/>
-      <p>
-          That feels like an existential question, don't you
-          think?
-      </p>
+      <Header />
+      <section className="quote-section">
+       <p>
+{' '}
+Mathmatics is not about numbers,eauations, computations,
+        or algorithms: it is about understanding.
+<span className="author">-William Paul Thurston</span>
+       </p>
+      </section>
     </>
-  )
+  );
 }
 
-export default Quote
+export default Quote;
