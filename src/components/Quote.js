@@ -1,19 +1,14 @@
 import React from 'react';
-import Header from './Header';
 
 function Quote() {
   return (
-    <>
-      <Header />
-      <section className="quote-section">
-       <p>
-{' '}
-Mathmatics is not about numbers,eauations, computations,
+    <section className="quote-section">
+      <p>
+        Mathmatics is not about numbers,equations, computations,
         or algorithms: it is about understanding.
-<span className="author">-William Paul Thurston</span>
-       </p>
-      </section>
-    </>
+        <span className="author">-William Paul Thurston</span>
+      </p>
+    </section>
   );
 }
 

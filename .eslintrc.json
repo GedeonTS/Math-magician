@@ -24,9 +24,12 @@
       "no-unused-vars":"off",
       "no-multiple-empty-lines":"off",
       "no-trailing-spaces":"off",
+      "no-multi-spaces":"warn",
       "react/jsx-indent":"off",
       "space-infix-ops":"off",
       "padded-blocks":"off",
+      "semi":"warn",
+      "eol-last":"warn",
       "function-paren-newline":"off",
       "react/no-unescaped-entities":"warn",
       "indent":"off"
