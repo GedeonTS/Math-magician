@@ -28,7 +28,7 @@
       "space-infix-ops":"off",
       "padded-blocks":"off",
       "semi":"warn",
-      "eol-last":"eol-last",
+      "eol-last":"warn",
       "function-paren-newline":"off",
       "react/no-unescaped-entities":"warn",
       "indent":"off"
