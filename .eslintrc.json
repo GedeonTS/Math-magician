@@ -27,6 +27,8 @@
       "react/jsx-indent":"off",
       "space-infix-ops":"off",
       "padded-blocks":"off",
+      "semi":"warn",
+      "eol-last":"eol-last",
       "function-paren-newline":"off",
       "react/no-unescaped-entities":"warn",
       "indent":"off"
