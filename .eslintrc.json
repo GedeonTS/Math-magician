@@ -24,6 +24,7 @@
       "no-unused-vars":"off",
       "no-multiple-empty-lines":"off",
       "no-trailing-spaces":"off",
+      "no-multi-spaces":"warn",
       "react/jsx-indent":"off",
       "space-infix-ops":"off",
       "padded-blocks":"off",
