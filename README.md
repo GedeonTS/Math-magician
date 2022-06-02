@@ -1,6 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # math-magician
 
+| Desktop  | 
+| ----------- |
+![Screenshot from 2022-06-02 19-11-12](https://user-images.githubusercontent.com/97834160/171687932-6075d250-be7d-4dd9-bfad-7e99b78c2faa.png)
 
 
 > "Math-magician" "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
