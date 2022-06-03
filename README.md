@@ -22,8 +22,9 @@ You can have a copy of this repo run on your local machine by just directly clon
 
 ### Live Demo
 
-<!-- Click [here](https://gedeonts.github.io/math-magician/)! -->
-Coming soon!
+#### Heroku
+
+[Live Demo Link](https://math-magician-gedeonts.herokuapp.com/)
 
 ### Prerequisites
 
