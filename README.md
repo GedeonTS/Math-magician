@@ -26,6 +26,11 @@ You can have a copy of this repo run on your local machine by just directly clon
 
 [Live Demo Link](https://math-magician-gedeonts.herokuapp.com/)
 
+#### Netlify
+
+[Live Demo Link](https://math-magician-gedeonts.netlify.app/)
+
+
 ### Prerequisites
 
 - Node.js
