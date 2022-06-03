@@ -9,5 +9,5 @@ describe('Test of home page', () => {
             .create(<Home />)
             .toJSON();
         expect(homeTest).toMatchSnapshot();
-    })
-})
+    });
+});

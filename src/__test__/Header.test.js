@@ -11,5 +11,5 @@ describe('Test of Header', () => {
             .create(<Router><Header /></Router>)
             .toJSON();
         expect(headerTest).toMatchSnapshot();
-    })
-})
+    });
+});

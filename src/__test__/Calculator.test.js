@@ -9,5 +9,5 @@ describe('Test of Calculator page', () => {
             .create(<Calculator />)
             .toJSON();
         expect(calculatorTest).toMatchSnapshot();
-    })
-})
+    });
+});

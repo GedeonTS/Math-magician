@@ -5,17 +5,16 @@ import Home from "./components/Home";
 import Quote from "./components/Quote";
 import Header from "./components/Header";
 
-
 class App extends Component {
   render() {
     return (
       <>
-      <Header/>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="Quote" element={<Quote />} />
           <Route path="Calculator" element={<Calculator />} />
-      </Routes>
+        </Routes>
       </>
     );
   }

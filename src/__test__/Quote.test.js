@@ -1,5 +1,5 @@
 import React from "react";
-import  renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer';
 import Quote from '../components/Quote';
 import '@testing-library/jest-dom';
 
@@ -9,5 +9,5 @@ describe('Test of Quote page', () => {
             .create(<Quote />)
             .toJSON();
         expect(quoteTest).toMatchSnapshot();
-    })
-})
+    });
+});
