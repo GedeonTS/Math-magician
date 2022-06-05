@@ -15,6 +15,7 @@ Read a random math-related quote..
 
 - Reactjs
 - CSS
+- HTML
 
 
 ### Getting Started
