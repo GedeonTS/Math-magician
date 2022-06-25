@@ -13,7 +13,8 @@ Read a random math-related quote..
 
 ### Built With
 
-- Reactjs
+- JavaScript
+- React
 - CSS
 - HTML
 
